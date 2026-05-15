@@ -30,7 +30,7 @@ export default function Home() {
       {/* <Speakers /> */}
 
       {/* Section V: Chương trình chi tiết nửa ngày (08:30 - 12:30) */}
-      {/* <Program /> */}
+      <Program />
 
       {/* Section VI & VII: Thông tin Ban tổ chức (Organizers) và Hội đồng PC */}
       <Committees />

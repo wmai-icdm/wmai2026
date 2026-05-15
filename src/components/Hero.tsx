@@ -5,7 +5,7 @@ export default function Hero() {
         <section className="pt-32 pb-20 bg-gradient-to-br from-ctu-primary to-blue-900 text-white text-center">
         <div className="max-w-5xl mx-auto px-4">
             <h1 className="text-4xl md:text-6xl font-bold font-academic mb-4">
-            AMI 2026: The 1st Workshop on Autonomous Machine Intelligence
+            WMAI 2026: Workshop on World Models and Autonomous Intelligence for Data Mining
             </h1>
             <p className="text-xl md:text-2xl mb-6 opacity-90">
             In conjunction with IEEE ICDM 2026

@@ -4,8 +4,8 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   output: 'export',
-  basePath: "/ami2026",
-  assetPrefix: '/ami2026/',
+  basePath: "/wmai2026",
+  assetPrefix: '/wmai2026/',
 };
 
 export default nextConfig;

@@ -15,7 +15,7 @@ export default function Navbar() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="flex justify-between h-16 items-center">
             <div className="flex-shrink-0 flex items-center">
-                <span className="text-ctu-primary font-bold text-xl font-academic">AMI 2026</span>
+                <span className="text-ctu-primary font-bold text-xl font-academic">WMAI 2026</span>
             </div>
             <div className="hidden md:block">
                 <div className="ml-10 flex items-baseline space-x-4">

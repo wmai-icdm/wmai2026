@@ -17,8 +17,8 @@ const readexPro = Readex_Pro({
 });
 
 export const metadata: Metadata = {
-  title: "AMI 2026 | The 1st Workshop on Autonomous Machine Intelligence",
-  description: "IEEE ICDM 2026 Workshop on Autonomous Machine Intelligence (AMI 2026). November 12-15, 2026, Shenyang, China.",
+  title: "WMAI 2026 | Workshop on World Models and Autonomous Intelligence for Data Mining",
+  description: "IEEE ICDM 2026 Workshop on World Models and Autonomous Intelligence for Data Mining (WMAI@ICDM 2026). November 12-15, 2026, Shenyang, China.",
 };
 
 export default function RootLayout({
@@ -34,7 +34,7 @@ export default function RootLayout({
         
         {/* Footer đơn giản */}
         <footer className="mt-auto py-6 bg-gray-900 text-white text-center text-xs border-t border-gray-800">
-          <p>© 2026 AMI Workshop Organizers. All rights reserved.</p>
+          <p>© 2026 WMAI Workshop Organizers. All rights reserved.</p>
           <p className="text-gray-500 mt-1">In conjunction with IEEE ICDM 2026 • Shenyang, China</p>
         </footer>
       </body>
