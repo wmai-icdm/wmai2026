@@ -47,15 +47,27 @@ export default function Submission() {
             </p>
           </div>
 
+          <div className="border-t border-gray-100 pt-4 text-sm">
+            <h3 className="text-lg font-bold text-ctu-primary mb-2 font-academic">
+              Acknowledgment
+            </h3>
+
+            <p className="text-sm leading-relaxed">
+              The Microsoft CMT service was used for managing the peer-reviewing process
+              for this conference. This service was provided for free by Microsoft and
+              they bore all expenses, including costs for Azure cloud services as well
+              as for software development and support.
+            </p>
+          </div>
+
           <div className="pt-6 text-center">
             {/* Thay thế bằng Link thực tế khi có */}
             <a 
-              href="#submission-link-pending" 
+              href="https://cmt3.research.microsoft.com/WMAIICDM2026" 
               className="inline-block bg-ctu-primary hover:bg-ctu-secondary text-white font-bold px-8 py-3 rounded-full transition-colors shadow"
             >
-              Submit Paper via CMT (Pending)
+              Submit Paper via Microsoft CMT
             </a>
-            <div className="text-xs text-gray-400 mt-2">Link will be announced upon acceptance</div>
           </div>
         </div>
       </div>

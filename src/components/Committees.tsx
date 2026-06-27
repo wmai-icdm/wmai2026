@@ -23,10 +23,11 @@ export default function Committees() {
         ]
     },
     {
-        name: "Prof. Ryutaro Ichise, D.Eng.",
+        name: "Prof. Ryutaro Ichise, Ph.D",
         role: "Co-organizer",
         affiliation: "Institute of Science Tokyo (formerly Tokyo Inst. of Technology), Japan",
-        email: "ichise@iee.e.titech.ac.jp",
+        // email: "https://www.ai.iee.e.titech.ac.jp/images/mail.png",
+        emailImage: "https://www.ai.iee.e.titech.ac.jp/images/mail.png",
         bio: "Professor at Institute of Science Tokyo. Research includes machine learning, knowledge graphs, semantic web, data mining, and reinforcement learning. Former Associate Professor at NII, Japan.",
         links: [
         { label: "Homepage", url: "https://www.ai.iee.e.titech.ac.jp/ichise/index.html" }
@@ -84,7 +85,20 @@ export default function Committees() {
                 <div className="border-t border-gray-200/60 pt-3 text-xs space-y-1 mt-auto">
                   <div>
                     <span className="text-gray-400">Email: </span> 
-                    <a href={`mailto:${org.email}`} className="text-ctu-primary hover:underline font-medium">{org.email}</a>
+                    {org.emailImage ? (
+                    <img
+                      src={org.emailImage}
+                      alt="Email address"
+                      className="inline-block h-4 align-middle"
+                    />
+                  ) : (
+                    <a
+                      href={`mailto:${org.email}`}
+                      className="text-ctu-primary hover:underline font-medium"
+                    >
+                      {org.email}
+                    </a>
+                  )}
                   </div>
                   {org.links.map((link, lIdx) => (
                     <div key={lIdx}>
