@@ -5,7 +5,7 @@ export default function ImportantDates() {
         { label: 'Workshop paper submission', date: 'Aug 20, 2026' },
         { label: 'Acceptance notification', date: 'Sep 18, 2026' },
         { label: 'Camera-ready due', date: 'Oct 2, 2026' },
-        { label: 'Workshop date', date: 'Nov 12, 2026' },
+        { label: 'Workshop date (08:30 – 12:00, Room London)', date: 'Nov 12, 2026' },
     ];
 
     return (

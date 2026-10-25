@@ -10,17 +10,23 @@ export default function Hero() {
             <p className="text-xl md:text-2xl mb-6 opacity-90">
             In conjunction with IEEE ICDM 2026
             </p>
+            <div className="inline-block border border-white/40 rounded px-3 py-1 text-sm font-bold tracking-widest mb-6">
+            WORKSHOP W05
+            </div>
             <div className="flex flex-col md:flex-row justify-center gap-6 text-lg font-medium">
             <div className="flex items-center justify-center gap-2">
-                <span>📅 November 12, 2026</span>
+                <span>📅 Thursday, November 12, 2026</span>
             </div>
             <div className="flex items-center justify-center gap-2">
-                <span>📍 Shenyang, China</span>
+                <span>🕗 08:30 – 12:00</span>
+            </div>
+            <div className="flex items-center justify-center gap-2">
+                <span>📍 Room London · Shenyang, China</span>
             </div>
             </div>
             <div className="mt-10">
-            <a href="#submission" className="bg-ctu-secondary hover:bg-blue-400 text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg">
-                Submit Paper Now
+            <a href="#program" className="bg-ctu-secondary hover:bg-blue-400 text-white px-8 py-3 rounded-full font-bold transition-all shadow-lg">
+                View Program
             </a>
             </div>
         </div>

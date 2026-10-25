@@ -29,7 +29,7 @@ export default function Home() {
       {/* Section IV: Danh sách Diễn giả khách mời (Dự kiến từ Meta FAIR, DeepMind) */}
       {/* <Speakers /> */}
 
-      {/* Section V: Chương trình chi tiết nửa ngày (08:30 - 12:30) */}
+      {/* Section V: Chương trình chi tiết nửa ngày (08:30 - 12:00, Room London) */}
       <Program />
 
       {/* Section VI & VII: Thông tin Ban tổ chức (Organizers) và Hội đồng PC */}
