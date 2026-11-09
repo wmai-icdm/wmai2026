@@ -11,14 +11,14 @@ export default function Hero() {
             In conjunction with IEEE ICDM 2026
             </p>
             <div className="inline-block border border-white/40 rounded px-3 py-1 text-sm font-bold tracking-widest mb-6">
-            WORKSHOP W05
+            WORKSHOP W05 · HYBRID PRESENTATIONS
             </div>
             <div className="flex flex-col md:flex-row justify-center gap-6 text-lg font-medium">
             <div className="flex items-center justify-center gap-2">
                 <span>📅 Thursday, November 12, 2026</span>
             </div>
             <div className="flex items-center justify-center gap-2">
-                <span>🕗 08:30 – 12:00</span>
+                <span>🕗 08:30 – 12:00 (UTC+8)</span>
             </div>
             <div className="flex items-center justify-center gap-2">
                 <span>📍 Room London · Shenyang, China</span>

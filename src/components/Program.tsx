@@ -77,7 +77,10 @@ export default function Program() {
             kind: 'event', time: "11:50 - 12:00", event: "Closing",
             detail: "Announcement of AMI 2027 (22–24 April 2027, Vietnam)",
         },
-        { kind: 'event', time: "12:00 - 13:00", event: "Lunch (Grand Ballroom 2)", muted: true },
+        {
+            kind: 'event', time: "12:00 - 13:00", event: "Lunch", muted: true,
+            detail: "Grand Ballroom III (3F) & Cafe Vista (1F) & Lobby Bar (1F)",
+        },
     ];
 
     const timeCell = "p-4 font-bold text-ctu-primary whitespace-nowrap w-40 align-top";
